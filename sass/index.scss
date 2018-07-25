@@ -592,10 +592,20 @@
                }
                li:first-child{
                 margin-top:69px;
-                  img:last-child{
-                    margin-left:10px;
+                  a:first-child{
+                      display: inline-block;
+                      width: 24px;
+                      height: 24px;
+                      background: url('../img/icon/telegram.png') no-repeat;
                   }
-            
+                  a:last-child{
+
+                    margin-left:10px;
+                     display: inline-block;
+                      width: 24px;
+                      height: 24px;
+                      background: url('../img/icon/twitter.png') no-repeat;
+                  }
                }
                li:last-child{
                    margin-top: 10px;
@@ -675,6 +685,9 @@
   .Rightreset{
     height: 323px !important;
   }
-
+.Wechatp{
+  white-space: nowrap;
+  margin-left: -25px;
+}
 
 

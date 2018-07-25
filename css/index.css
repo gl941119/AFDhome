@@ -449,8 +449,17 @@
         white-space: nowrap; }
       .footer .call ul li:first-child {
         margin-top: 69px; }
-        .footer .call ul li:first-child img:last-child {
-          margin-left: 10px; }
+        .footer .call ul li:first-child a:first-child {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          background: url("../img/icon/telegram.png") no-repeat; }
+        .footer .call ul li:first-child a:last-child {
+          margin-left: 10px;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          background: url("../img/icon/twitter.png") no-repeat; }
       .footer .call ul li:last-child {
         margin-top: 10px; }
       .footer .call ul .bian {
@@ -509,5 +518,9 @@
 
 .Rightreset {
   height: 323px !important; }
+
+.Wechatp {
+  white-space: nowrap;
+  margin-left: -25px; }
 
 /*# sourceMappingURL=index.css.map */
