@@ -8,468 +8,506 @@
 .wrap {
   background: #efefef;
   margin: 0 auto;
-  width: 1440px;
-  height: 5387px; }
-  .wrap .header {
+  width: 1440px; }
+
+.header {
+  height: 80px;
+  background: #bababa; }
+  .header .logo {
+    margin-left: 100px;
+    margin-top: 4px; }
+    .header .logo img {
+      width: 64px;
+      height: 72px; }
+  .header .nav {
+    margin-right: 100px;
     height: 80px;
-    background: #bababa; }
-    .wrap .header .logo {
-      margin-left: 100px;
-      margin-top: 4px; }
-      .wrap .header .logo img {
-        width: 64px;
-        height: 72px; }
-    .wrap .header .nav {
-      margin-right: 100px;
-      height: 80px;
-      line-height: 80px; }
-      .wrap .header .nav a {
-        display: block;
-        float: left;
-        height: 24px;
-        font-weight: 500;
-        font-size: 18px;
-        font-family: "微软雅黑";
-        color: #101010;
-        margin-left: 50px; }
-  .wrap .banner {
-    width: 1440px;
-    height: 500px;
-    position: relative;
-    box-sizing: border-box;
-    padding-top: 163px;
-    background: url(../img/banner.jpg) no-repeat;
-    background-size: 1440px 500px; }
-    .wrap .banner .main dl dt {
-      margin: 0 0 0 96px; }
-      .wrap .banner .main dl dt span {
-        width: 474px;
-        height: 48px;
-        font-size: 48px;
-        font-family: "STHeitiSC-Medium";
-        color: #333333;
-        line-height: 49px; }
-    .wrap .banner .main dl dd {
-      margin-left: 96px;
-      margin-top: 6px;
-      width: 312px;
-      height: 33px;
-      font-size: 24px;
-      font-family: "PingFangSC-Regular";
-      color: #666666;
-      line-height: 33px; }
-    .wrap .banner .main dl dd:nth-child(2) {
-      margin-top: 55px !important; }
-    .wrap .banner .main > div {
-      margin: 105px 0 0 96px; }
-      .wrap .banner .main > div .newGive {
-        display: block;
-        float: left;
-        width: 133px;
-        height: 50px;
-        background: #ff9500;
-        font-size: 18px;
-        font-family: "STHeitiSC-Medium";
-        color: white;
-        line-height: 19px;
-        border: 0;
-        text-align: center;
-        line-height: 50px; }
-      .wrap .banner .main > div .downwhite {
-        margin-left: 12px;
-        display: block;
-        float: left;
-        width: 133px;
-        height: 50px;
-        border: 1px solid #e0e0e0;
-        background: white;
-        font-size: 18px;
-        font-family: "STHeitiSC-Medium";
-        color: #666666;
-        text-align: center;
-        line-height: 50px; }
-  .wrap .flow {
-    width: 1440px;
-    height: 150px;
-    background: #646464;
-    box-sizing: border-box;
-    padding: 50px; }
-    .wrap .flow ul {
-      height: 50px;
-      display: flex;
-      justify-content: space-between; }
-      .wrap .flow ul li {
-        width: 32%;
-        line-height: 50px; }
-        .wrap .flow ul li > div {
-          vertical-align: center;
-          float: left;
-          margin-right: 29px;
-          background-repeat: no-repeat; }
-        .wrap .flow ul li .iconBannerOne {
-          width: 48px;
-          height: 48px;
-          background-size: 48px 48px !important;
-          background: url(../img/icon/bannericon3.png);
-          color: #646464; }
-        .wrap .flow ul li .iconBanerTwo {
-          width: 34px;
-          height: 48px;
-          background-size: 34px 48px !important;
-          background: url(../img/icon/bannericon.png); }
-        .wrap .flow ul li .iconBnnerThree {
-          width: 42px;
-          height: 38px;
-          background-size: 42px 38px !important;
-          background: url(../img/icon/bannericon2.png); }
-        .wrap .flow ul li dt {
-          font-size: 18px;
-          line-height: 24px;
-          font-family: "微软雅黑";
-          color: white; }
-        .wrap .flow ul li dd {
-          font-size: 16px;
-          line-height: 21px;
-          margin-top: 3px;
-          font-family: "微软雅黑";
-          color: white; }
-  .wrap .serve {
-    height: 896px;
-    box-sizing: border-box;
-    padding-top: 60px;
-    font-weight: 900; }
-    .wrap .serve > p {
-      text-align: center;
-      font-size: 24px;
-      font-family: "微软雅黑";
-      color: #333333;
-      margin-bottom: 59px; }
-    .wrap .serve .serveMain {
-      height: 358px; }
-      .wrap .serve .serveMain > img {
-        width: 600px;
-        height: 358px;
-        float: left; }
-      .wrap .serve .serveMain .serveMainRight {
-        float: left;
-        width: 840px;
-        box-sizing: border-box;
-        padding: 28px 0 0 45px; }
-        .wrap .serve .serveMain .serveMainRight .top {
-          overflow: hidden; }
-          .wrap .serve .serveMain .serveMainRight .top img {
-            width: 44px;
-            height: 44px;
-            float: left; }
-          .wrap .serve .serveMain .serveMainRight .top dl {
-            float: left;
-            width: 463px;
-            margin-left: 43px; }
-            .wrap .serve .serveMain .serveMainRight .top dl dt {
-              font-weight: 700;
-              font-size: 22px;
-              font-family: "微软雅黑";
-              color: #333333; }
-            .wrap .serve .serveMain .serveMainRight .top dl dd {
-              margin-top: 26px;
-              font-size: 16px;
-              font-family: "微软雅黑";
-              color: #333333;
-              line-height: 24px; }
-        .wrap .serve .serveMain .serveMainRight .bottom {
-          margin-top: 56px; }
-          .wrap .serve .serveMain .serveMainRight .bottom img {
-            width: 44px;
-            height: 44px;
-            float: left; }
-          .wrap .serve .serveMain .serveMainRight .bottom dl {
-            float: left;
-            width: 463px;
-            margin-left: 43px; }
-            .wrap .serve .serveMain .serveMainRight .bottom dl dt {
-              font-size: 22px;
-              font-family: "微软雅黑";
-              color: #333333; }
-            .wrap .serve .serveMain .serveMainRight .bottom dl dd {
-              margin-top: 26px;
-              font-size: 16px;
-              font-family: "微软雅黑";
-              color: #333333;
-              line-height: 24px; }
-    .wrap .serve > .bottom {
-      width: 1440px;
-      height: 332px;
-      background: #646464;
-      text-align: center;
-      box-sizing: border-box;
-      padding-top: 63px;
-      margin-top: 56px; }
-      .wrap .serve > .bottom img {
-        display: block;
-        width: 111px;
-        height: 80px;
-        margin: 0 auto;
-        margin-bottom: 12px; }
-      .wrap .serve > .bottom p {
-        font-size: 20px;
-        font-family: "PingFangSC-Semibold";
-        color: white;
-        line-height: 28px; }
-      .wrap .serve > .bottom .reset {
-        font-size: 14px;
-        font-family: "微软雅黑";
-        color: white;
-        margin-top: 10px; }
-      .wrap .serve > .bottom a {
-        display: block;
-        margin: 0 auto;
-        margin-top: 13px;
-        width: 164px;
-        height: 56px;
-        line-height: 56px;
-        border-radius: 4px;
-        border: 1px solid white;
-        background: #646464;
-        font-size: 14px;
-        font-family: MicrosoftYaHei;
-        color: white; }
-  .wrap .MyTeam > img {
-    display: block;
-    width: 110px;
-    height: 70px;
-    margin: 0 auto; }
-  .wrap .MyTeam .title {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: "PingFangSC-Semibold";
-    color: #333333;
-    line-height: 28px; }
-  .wrap .MyTeam .desc {
-    text-align: center;
-    width: 657px;
-    height: 48px;
-    margin: 10px auto 0;
-    font-size: 14px;
-    font-family: "微软雅黑";
-    color: #666666;
-    line-height: 24px; }
-  .wrap .MyTeam .main {
-    box-sizing: border-box;
-    overflow: hidden;
-    padding: 0 100px 0 100px; }
-    .wrap .MyTeam .main .Teampro {
-      width: 366px;
-      height: 366px;
-      float: left;
-      transition: all 1s; }
-      .wrap .MyTeam .main .Teampro img {
-        width: 366px;
-        height: 366px; }
-      .wrap .MyTeam .main .Teampro .keep {
-        width: 366px;
-        height: 366px;
-        margin-top: 0 !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        margin-bottom: 0 !important;
-        z-index: 100;
-        position: relative;
-        top: -369px;
-        opacity: 1; }
-      .wrap .MyTeam .main .Teampro .content {
-        width: 366px;
-        height: 366px;
-        z-index: 101;
-        margin-top: 0 !important;
-        position: relative;
-        top: -736px;
-        box-sizing: border-box;
-        padding: 48px 0 0 42px;
-        opacity: 0; }
-        .wrap .MyTeam .main .Teampro .content p {
-          font-size: 18px;
-          font-family: "微软雅黑";
-          color: white;
-          line-height: 24px;
-          position: relative; }
-        .wrap .MyTeam .main .Teampro .content .address {
-          margin-top: 18px; }
-        .wrap .MyTeam .main .Teampro .content .position {
-          margin-top: 48px; }
-        .wrap .MyTeam .main .Teampro .content .exp {
-          margin-top: 28px; }
-    .wrap .MyTeam .main .Teampro:hover .keep {
-      background: rgba(255, 149, 0, 0.4); }
-    .wrap .MyTeam .main .Teampro:hover .content {
-      opacity: 1; }
-    .wrap .MyTeam .main div:first-child {
-      margin-top: 94px; }
-    .wrap .MyTeam .main div:nth-child(2) {
-      margin-top: 94px;
-      margin-left: 67px;
-      margin-right: 66px; }
-    .wrap .MyTeam .main div:nth-child(3) {
-      margin-top: 94px; }
-    .wrap .MyTeam .main div:nth-child(4) {
-      margin-top: 166px; }
-    .wrap .MyTeam .main div:nth-child(5) {
-      margin-top: 166px;
-      margin-left: 67px;
-      margin-right: 66px; }
-    .wrap .MyTeam .main div:last-child {
-      margin-top: 166px; }
-  .wrap .operation .canvas {
-    height: 814px; }
-    .wrap .operation .canvas img {
+    line-height: 80px; }
+    .header .nav a {
       display: block;
-      margin: 0 auto; }
-  .wrap .operation .project {
-    height: 415px; }
-    .wrap .operation .project > div {
       float: left;
-      height: 374px;
-      width: 248px; }
-      .wrap .operation .project > div dt {
-        margin-bottom: 20px;
-        font-size: 22px;
-        font-family: "微软雅黑";
-        color: #333333;
-        line-height: 29px;
-        font-weight: 900; }
-      .wrap .operation .project > div dd {
-        font-size: 16px;
-        font-family: "微软雅黑";
-        color: #666666;
-        line-height: 24px; }
-      .wrap .operation .project > div dd:last-child {
-        margin-top: 10px; }
-    .wrap .operation .project .crowd {
-      margin-left: 114px; }
-    .wrap .operation .project .advert {
-      margin: 0 232px 0 230px; }
-  .wrap .issue {
-    width: 1240px;
-    margin: 0 auto;
-    margin-top: 83px;
-    overflow: hidden; }
-    .wrap .issue .title {
-      text-align: center;
-      font-size: 20px;
-      font-family: "PingFangSC-Semibold";
+      height: 24px;
+      font-weight: 500;
+      font-size: 18px;
+      font-family: "微软雅黑";
+      color: #101010;
+      margin-left: 50px; }
+
+.banner {
+  width: 1440px;
+  height: 500px;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 163px;
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: 1440px 500px; }
+  .banner .main dl dt {
+    margin: 0 0 0 96px; }
+    .banner .main dl dt span {
+      width: 474px;
+      height: 48px;
+      font-size: 48px;
+      font-family: "STHeitiSC-Medium";
       color: #333333;
-      line-height: 28px; }
-    .wrap .issue .desc {
-      margin-top: 91px;
-      overflow: hidden; }
-      .wrap .issue .desc div {
-        width: 500px;
-        height: 192px;
-        margin-bottom: 20px; }
-        .wrap .issue .desc div dt {
-          height: 51px;
-          font-size: 18px;
-          font-family: "PingFangSC-Regular";
-          color: #666666;
-          line-height: 25px; }
-        .wrap .issue .desc div dd {
-          font-size: 14px;
-          font-family: "PingFangSC-Regular";
-          color: #999999;
-          line-height: 20px; }
-  .wrap .moreissue {
-    font-size: 18px;
+      line-height: 49px; }
+  .banner .main dl dd {
+    margin-left: 96px;
+    margin-top: 6px;
+    height: 33px; }
+  .banner .main dl dd:nth-child(2) {
+    margin-top: 55px !important;
+    font-size: 24px;
     font-family: "PingFangSC-Regular";
     color: #666666;
-    line-height: 25px;
-    margin-top: 10px;
-    text-align: center; }
-  .wrap .partner p {
+    line-height: 33px; }
+  .banner .main dl dd:last-child {
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: PingFangSC-Regular;
+    color: #666666;
+    line-height: 25px; }
+  .banner .main > div {
+    margin: 105px 0 0 96px; }
+    .banner .main > div a {
+      display: block;
+      float: left;
+      width: 133px;
+      height: 50px;
+      font-size: 18px;
+      font-family: "STHeitiSC-Medium";
+      text-align: center;
+      line-height: 50px;
+      border: 0;
+      margin-top: -8px; }
+    .banner .main > div .newGive {
+      background: #ff9500;
+      color: white; }
+    .banner .main > div .downwhite {
+      margin-left: 12px;
+      border: 1px solid #e0e0e0;
+      background: white;
+      color: #666666; }
+
+.flow {
+  width: 1440px;
+  height: 155px;
+  background: #999999;
+  box-sizing: border-box;
+  padding: 53px 0 0 28px; }
+  .flow ul {
+    display: flex;
+    justify-content: space-between; }
+    .flow ul li {
+      flex: 1;
+      line-height: 50px; }
+      .flow ul li > div {
+        vertical-align: center;
+        float: left;
+        margin-right: 29px;
+        width: 48px;
+        height: 100px;
+        background-size: 48px 48px !important; }
+      .flow ul li .iconBannerOne {
+        background: url(../img/icon/bannericon3.png) no-repeat;
+        color: #646464; }
+      .flow ul li .iconBanerTwo {
+        background: url(../img/icon/bannericon.png) no-repeat; }
+      .flow ul li .iconBnnerThree {
+        background: url(../img/icon/bannericon2.png) no-repeat; }
+      .flow ul li dt {
+        font-size: 14px;
+        font-family: "微软雅黑";
+        color: white;
+        line-height: 19px; }
+      .flow ul li dd {
+        font-size: 12px;
+        font-family: "MicrosoftYaHei";
+        color: white;
+        line-height: 16px;
+        margin-top: 10px; }
+
+.serve {
+  box-sizing: border-box;
+  padding-top: 60px; }
+  .serve > p {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 24px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 31px; }
+  .serve .serveMain {
+    height: 480px;
+    overflow: hidden; }
+    .serve .serveMain > img {
+      width: 600px;
+      height: 358px;
+      float: left; }
+    .serve .serveMain .serveMainRight {
+      float: left;
+      width: 840px;
+      box-sizing: border-box;
+      padding: 0 99px 0 42px; }
+      .serve .serveMain .serveMainRight .top {
+        overflow: hidden; }
+        .serve .serveMain .serveMainRight .top img {
+          width: 44px;
+          height: 44px;
+          float: left; }
+        .serve .serveMain .serveMainRight .top > div {
+          float: left;
+          display: block;
+          width: 612px;
+          margin-left: 43px; }
+          .serve .serveMain .serveMainRight .top > div dt {
+            font-size: 22px;
+            font-family: MicrosoftYaHei;
+            color: #333333;
+            line-height: 29px; }
+          .serve .serveMain .serveMainRight .top > div dd {
+            margin-top: 14px;
+            font-size: 16px;
+            font-family: MicrosoftYaHei;
+            color: #333333;
+            line-height: 24px; }
+      .serve .serveMain .serveMainRight .bottom {
+        overflow: hidden;
+        margin-top: 56px; }
+        .serve .serveMain .serveMainRight .bottom img {
+          width: 44px;
+          height: 44px;
+          float: left; }
+        .serve .serveMain .serveMainRight .bottom dl {
+          float: left;
+          width: 463px;
+          margin-left: 43px; }
+          .serve .serveMain .serveMainRight .bottom dl dt {
+            font-size: 22px;
+            font-family: "微软雅黑";
+            color: #333333; }
+          .serve .serveMain .serveMainRight .bottom dl dd {
+            margin-top: 26px;
+            font-size: 16px;
+            font-family: "微软雅黑";
+            color: #333333;
+            line-height: 24px; }
+  .serve > .bottom {
+    width: 1440px;
+    height: 332px;
+    background: #646464;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 63px;
+    margin-top: 60px; }
+    .serve > .bottom img {
+      display: block;
+      width: 111px;
+      height: 80px;
+      margin: 0 auto;
+      margin-bottom: 12px; }
+    .serve > .bottom p {
+      font-size: 20px;
+      font-family: "PingFangSC-Semibold";
+      color: white;
+      line-height: 28px; }
+    .serve > .bottom .reset {
+      font-size: 14px;
+      font-family: "微软雅黑";
+      color: white;
+      margin-top: 10px; }
+    .serve > .bottom a {
+      display: block;
+      margin: 0 auto;
+      margin-top: 13px;
+      width: 164px;
+      height: 56px;
+      line-height: 56px;
+      border-radius: 4px;
+      border: 1px solid white;
+      background: #646464;
+      font-size: 14px;
+      font-family: MicrosoftYaHei;
+      color: white; }
+
+.MyTeam > img {
+  display: block;
+  width: 110px;
+  height: 70px;
+  margin: 0 auto; }
+.MyTeam .title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: PingFangSC-Semibold;
+  color: #333333;
+  line-height: 28px; }
+.MyTeam .desc {
+  text-align: center;
+  margin-top: 10px;
+  width: 657px;
+  height: 48px;
+  margin: 10px auto 0;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: #666666;
+  line-height: 24px; }
+.MyTeam .main {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 100px 0 100px; }
+  .MyTeam .main .Teampro {
+    width: 366px;
+    height: 366px;
+    float: left;
+    transition: all 1s; }
+    .MyTeam .main .Teampro img {
+      width: 366px;
+      height: 366px; }
+    .MyTeam .main .Teampro .keep {
+      width: 366px;
+      height: 366px;
+      margin-top: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      margin-bottom: 0 !important;
+      z-index: 100;
+      position: relative;
+      top: -369px;
+      opacity: 1; }
+    .MyTeam .main .Teampro .content {
+      width: 366px;
+      height: 366px;
+      z-index: 101;
+      margin-top: 0 !important;
+      position: relative;
+      top: -736px;
+      box-sizing: border-box;
+      padding: 48px 0 0 42px;
+      opacity: 0; }
+      .MyTeam .main .Teampro .content p {
+        font-size: 18px;
+        font-family: "微软雅黑";
+        color: white;
+        line-height: 24px;
+        position: relative; }
+      .MyTeam .main .Teampro .content .address {
+        margin-top: 18px; }
+      .MyTeam .main .Teampro .content .position {
+        margin-top: 48px; }
+      .MyTeam .main .Teampro .content .exp {
+        margin-top: 28px; }
+  .MyTeam .main .Teampro:hover .keep {
+    background: rgba(255, 149, 0, 0.4); }
+  .MyTeam .main .Teampro:hover .content {
+    opacity: 1; }
+  .MyTeam .main div:first-child {
+    margin-top: 94px; }
+  .MyTeam .main div:nth-child(2) {
+    margin-top: 94px;
+    margin-left: 67px;
+    margin-right: 66px; }
+  .MyTeam .main div:nth-child(3) {
+    margin-top: 94px; }
+  .MyTeam .main div:nth-child(4) {
+    margin-top: 166px; }
+  .MyTeam .main div:nth-child(5) {
+    margin-top: 166px;
+    margin-left: 67px;
+    margin-right: 66px; }
+  .MyTeam .main div:last-child {
+    margin-top: 166px; }
+
+.operation .canvas {
+  margin-top: 44px;
+  /* height: 814px; */ }
+  .operation .canvas img {
+    display: block;
+    margin: 0 auto; }
+.operation .project {
+  margin-top: 34px;
+  height: 415px; }
+  .operation .project > div {
+    float: left;
+    height: 374px;
+    width: 350px; }
+    .operation .project > div dt {
+      margin-bottom: 20px;
+      font-size: 22px;
+      font-family: MicrosoftYaHei;
+      color: #333333;
+      line-height: 29px;
+      font-weight: 900; }
+    .operation .project > div dd {
+      font-size: 16px;
+      font-family: MicrosoftYaHei;
+      color: #666666;
+      line-height: 24px; }
+    .operation .project > div dd:last-child {
+      margin-top: 10px; }
+  .operation .project .crowd {
+    margin-left: 100px; }
+  .operation .project .advert {
+    margin: 0 95px 0 95px; }
+  .operation .project .afdt {
+    margin-right: 100px; }
+
+.issue {
+  box-sizing: border-box;
+  padding: 0 100px 0 100px;
+  margin-top: 46px;
+  overflow: hidden; }
+  .issue .title {
+    text-align: center;
+    font-size: 20px;
+    font-family: PingFangSC-Semibold;
+    color: #333333;
+    line-height: 28px; }
+  .issue .desc {
+    margin-top: 47px; }
+    .issue .desc div {
+      width: 500px;
+      height: 192px;
+      margin-bottom: 50px; }
+      .issue .desc div dt {
+        height: 51px;
+        font-size: 18px;
+        font-family: "PingFangSC-Regular";
+        color: #666666;
+        line-height: 25px; }
+      .issue .desc div dd {
+        font-size: 14px;
+        font-family: "PingFangSC-Regular";
+        color: #999999;
+        line-height: 20px; }
+
+.moreissue {
+  font-size: 18px;
+  font-family: "PingFangSC-Regular";
+  color: #666666;
+  line-height: 25px;
+  margin-top: 10px;
+  text-align: center; }
+
+.partner {
+  font-size: 18px;
+  font-family: PingFangSC-Regular;
+  color: #666666;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 87px; }
+  .partner p {
     height: 118px;
     line-height: 119px;
     text-align: center;
     font-size: 20px;
     font-family: "PingFangSC-Semibold";
     color: #333333; }
-  .wrap .partner .main {
+  .partner .main {
     box-sizing: border-box;
     padding: 0 100px 0 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     height: 384px; }
-    .wrap .partner .main img {
+    .partner .main img {
       display: block;
       width: 188px;
       height: 110px; }
-  .wrap .footer {
-    width: 1440px;
-    height: 188px;
-    background: #646464;
-    margin-top: 72px;
-    color: white; }
-    .wrap .footer .footerLogo {
-      float: left;
-      width: 279px;
-      text-align: center; }
-      .wrap .footer .footerLogo img {
-        width: 65px;
-        height: 73px;
-        margin-top: 20px; }
-      .wrap .footer .footerLogo p {
-        margin-top: 10px;
-        font-size: 18px;
-        font-family: "PingFangSC-Regular";
-        line-height: 25px; }
-    .wrap .footer .call {
-      float: right;
-      height: 188px; }
-      .wrap .footer .call ul {
-        float: left;
-        margin-top: 20px;
-        width: 150px;
-        margin-right: 150px; }
-        .wrap .footer .call ul li {
-          margin-top: 15px;
-          width: 56px;
-          font-size: 14px;
-          font-family: "PingFangSC-Medium";
-          white-space: nowrap; }
-        .wrap .footer .call ul li:first-child {
-          margin-bottom: 25px; }
-        .wrap .footer .call ul li:last-child {
-          margin-top: 29px; }
-        .wrap .footer .call ul .bian {
-          letter-spacing: 29px; }
-      .wrap .footer .call > div {
-        float: left;
-        width: 128px;
-        height: 188px;
-        margin-right: 40px;
-        box-sizing: border-box;
-        padding-top: 16px; }
-        .wrap .footer .call > div p {
-          margin-top: 8px;
-          font-size: 14px;
-          font-family: "PingFangSC-Medium";
-          color: white;
-          line-height: 20px;
-          text-align: center; }
-  .wrap .coypRight {
-    width: 1440px;
-    height: 40px;
-    background: #333333;
-    box-sizing: border-box;
-    padding: 8px 0 0 53px; }
-    .wrap .coypRight span {
+
+.footer {
+  width: 1440px;
+  height: 188px;
+  background: #646464;
+  margin-top: 72px;
+  color: white; }
+  .footer .footerLogo {
+    float: left;
+    width: 279px;
+    text-align: center; }
+    .footer .footerLogo img {
+      width: 65px;
+      height: 73px;
+      margin-top: 20px; }
+    .footer .footerLogo p {
+      margin-top: 10px;
       font-size: 18px;
-      line-height: 21px;
-      color: #FFFFFF; }
-    .wrap .coypRight span:first-child {
-      font-family: "ArialMT"; }
-    .wrap .coypRight span:nth-child(2) {
-      font-family: "PingFangSC"; }
-    .wrap .coypRight span:last-child {
-      font-family: "ArialMT"; }
+      font-family: "PingFangSC-Regular";
+      line-height: 25px; }
+  .footer .call {
+    float: right;
+    height: 188px; }
+    .footer .call ul {
+      float: left;
+      margin-top: 20px;
+      width: 150px;
+      margin-right: 150px; }
+      .footer .call ul li {
+        /* margin-top: 69px; */
+        width: 56px;
+        font-size: 14px;
+        font-family: "PingFangSC-Medium";
+        white-space: nowrap; }
+      .footer .call ul li:first-child {
+        margin-top: 69px; }
+        .footer .call ul li:first-child img:last-child {
+          margin-left: 10px; }
+      .footer .call ul li:last-child {
+        margin-top: 10px; }
+      .footer .call ul .bian {
+        letter-spacing: 29px; }
+    .footer .call > div {
+      float: left;
+      width: 64px;
+      height: 188px;
+      margin-right: 44px;
+      box-sizing: border-box;
+      padding-top: 50px; }
+      .footer .call > div p {
+        margin-top: 8px;
+        font-size: 12px;
+        font-family: PingFangSC-Medium;
+        color: white;
+        line-height: 17px;
+        text-align: center; }
+      .footer .call > div img {
+        width: 64px;
+        height: 64px; }
+
+.coypRight {
+  width: 1440px;
+  height: 40px;
+  background: #333333;
+  box-sizing: border-box;
+  padding: 8px 0 0 53px; }
+  .coypRight span {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF; }
+  .coypRight span:first-child {
+    font-family: "ArialMT"; }
+  .coypRight span:nth-child(2) {
+    font-family: "PingFangSC"; }
+  .coypRight span:last-child {
+    font-family: "ArialMT"; }
+
+.serveMainRight-dl {
+  float: left;
+  display: block;
+  width: 612px;
+  margin-left: 43px; }
+  .serveMainRight-dl dt {
+    font-size: 22px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 29px; }
+  .serveMainRight-dl dd {
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    color: #333333;
+    line-height: 24px; }
+
+.Rightreset {
+  height: 323px !important; }
 
 /*# sourceMappingURL=index.css.map */
