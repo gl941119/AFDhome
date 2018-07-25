@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.fw6 {
+  font-weight: 600; }
+
+.top20 {
+  margin-top: 20px; }
+
 .left {
   float: left; }
 
@@ -118,7 +124,8 @@
         font-size: 14px;
         font-family: "微软雅黑";
         color: white;
-        line-height: 19px; }
+        line-height: 19px;
+        font-weight: 600; }
       .flow ul li dd {
         font-size: 12px;
         font-family: "MicrosoftYaHei";
@@ -237,7 +244,7 @@
 .MyTeam .title {
   text-align: center;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 24px;
   font-family: PingFangSC-Semibold;
   color: #333333;
   line-height: 28px; }
@@ -358,7 +365,7 @@
   overflow: hidden; }
   .issue .title {
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-family: PingFangSC-Semibold;
     color: #333333;
     line-height: 28px; }
@@ -373,7 +380,8 @@
         font-size: 18px;
         font-family: "PingFangSC-Regular";
         color: #666666;
-        line-height: 25px; }
+        line-height: 25px;
+        font-weight: 600; }
       .issue .desc div dd {
         font-size: 14px;
         font-family: "PingFangSC-Regular";
@@ -399,7 +407,7 @@
     height: 118px;
     line-height: 119px;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-family: "PingFangSC-Semibold";
     color: #333333; }
   .partner .main {

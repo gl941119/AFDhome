@@ -50,7 +50,7 @@
         color: #333333;
         line-height: 49px; }
     .wrap .banner .main dl dd {
-      margin-left: 96px;
+      margin-left: 157px;
       margin-top: 6px;
       width: 312px;
       height: 33px;
@@ -60,6 +60,9 @@
       line-height: 33px; }
     .wrap .banner .main dl dd:nth-child(2) {
       margin-top: 55px !important; }
+    .wrap .banner .main dl .clickw {
+      font-size: 17px !important;
+      text-align: center; }
     .wrap .banner .main > div {
       margin: 105px 0 0 96px; }
       .wrap .banner .main > div .newGive {
