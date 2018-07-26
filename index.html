@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/index.css">
+
 </head>
 <body>
 	<div class="wrap">
@@ -276,12 +277,22 @@
 			<span>AFD CHAIN FOUNDATION LTD.</span>
 			
 		</div>
+		<button id="btn">1</button>
+		<video id='video' src="./video/video.mp4" controls width="1440px" height="200px">
+		您的浏览器不支持 video 标签。
+		</video>
 
 
 		
 		
 	</div>
 
-
+	<script>
+		let btn = document.getElementById("btn")
+		let v = document.getElementById("video")
+		btn.onclick=function(){
+			v.play()
+		}
+	</script>
 </body>
 </html>
