@@ -7,6 +7,11 @@
 
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/index.css">
+	<style>
+		.video{
+			object-fit:fill;
+		}
+	</style>
 
 </head>
 <body>
@@ -24,19 +29,36 @@
 			</div>
 		</div>
 		<!-- banner -->
-		<div class="banner">
-			<div class="main">
-				<dl>
-					<dt><span>AFD Chain</span></dt>
-					<dd>The world’s first accurate marketing platform for the blockchain</dd>
-					<dd>Click is mining. Data is the value of Encryption currency</dd>
-				</dl>
-				<div>
-					<a class="newGive fw6" href='http://www.afdchain.com'>Try it now</a>
-					<a  class="downwhite fw6" href='http://www.afdchain.org/static/afd_white_paper_en.pdf' download>Download wp</a>
+		<div class="slider">
+		  <div class="slider-img">
+		    <ul class="slider-img-ul">
+		      <li>
+		      	<video src="http://www.afdchain.org/static/afd-video-46.mp4"  controls autoplay width="1440px" height="500px" class="video"></video>
+		      	
+		      </li>
+		      <li>
+		      	<div class="banner">
+					<div class="main">
+						<dl>
+							<dt><span>AFD Chain</span></dt>
+							<dd>The world’s first accurate marketing platform for the blockchain</dd>
+							<dd>Click is mining. Data is the value of Encryption currency</dd>
+						</dl>
+						<div>
+							<a class="newGive fw6" href='http://www.afdchain.com'>Try it now</a>
+							<a  class="downwhite fw6" href='http://www.afdchain.org/static/afd_white_paper_en.pdf' download>Download wp</a>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+		      </li>
+		      
+		    </ul>
+		  </div>
+		</div> 
+
+
+
+		
 		<!-- flow -->
 		<div class="flow">
 				<ul>
@@ -277,22 +299,25 @@
 			<span>AFD CHAIN FOUNDATION LTD.</span>
 			
 		</div>
-		<button id="btn">1</button>
-		<video id='video' src="./video/video.mp4" controls width="1440px" height="200px">
-		您的浏览器不支持 video 标签。
-		</video>
+		
+	
 
 
 		
 		
 	</div>
+	<script src="lib/jquery-1.11.0.min.js"></script>
+	<script src="lib/xSlider.js"></script>
 
 	<script>
-		let btn = document.getElementById("btn")
-		let v = document.getElementById("video")
-		btn.onclick=function(){
-			v.play()
-		}
+		// let btn = document.getElementById("btn")
+		// let v = document.getElementById("video")
+		// btn.onclick=function(){
+		// 	v.play()
+		// }
+		$(function(){
+			$('.slider').xSlider()   
+		})
 	</script>
 </body>
 </html>

@@ -4,8 +4,14 @@
 	<meta charset="UTF-8">
 	<title>AFD Chain(阿凡达链)</title>
 	<link href="ico.ico" rel="shortcut icon" />
+	
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/chinaIndex.css">
+	<style>
+		.video{
+			object-fit:fill;
+		}
+	</style>
 </head>
 <body>
 	<div class="wrap">
@@ -19,27 +25,35 @@
 					<a href="#myTeam">我们的团队</a>
 					<a href="#issue">常见问题</a>
 					<a href='#callMy'>联系我们</a>
-
 			</div>
 		</div>
 		<!-- banner -->
-		<div class="banner">
-			<div class="main">
-				<dl>
-					<dt><span>AFD Chain(阿凡达链)</span></dt>
-					<dd>全球首家区块链精准广告平台</dd>
-					<dd class="clickw">点击即挖矿 流量即币值</dd>
-				</dl>
-				<div>
-
-
-					
-					<a class="newGive" href='http://www.afdchain.com'>马上试试</a>
-					<a  class="downwhite" href='http://www.afdchain.org/static/afd_white_paper.pdf' download>下载白皮书</a>
+		<div class="slider">
+		  <div class="slider-img">
+		    <ul class="slider-img-ul">
+		      <li>
+		      	<video src="http://www.afdchain.org/static/afd-video-46.mp4"  controls autoplay width="1440px" height="500px" class="video"></video>
+		      	
+		      </li>
+		      <li>
+		      	<div class="banner">
+					<div class="main">
+						<dl>
+							<dt><span>AFD Chain(阿凡达链)</span></dt>
+							<dd>全球首家区块链精准广告平台</dd>
+							<dd class="clickw">点击即挖矿 流量即币值</dd>
+						</dl>
+						<div>
+							<a class="newGive" href='http://www.afdchain.com'>马上试试</a>
+							<a  class="downwhite" href='http://www.afdchain.org/static/afd_white_paper.pdf' download>下载白皮书</a>
+						</div>
+					</div>
 				</div>
-			</div>
-			
-		</div>
+		      </li>
+		      
+		    </ul>
+		  </div>
+		</div>  
 		<!-- flow -->
 		<div class="flow">
 				<ul>
@@ -271,12 +285,16 @@
 			<span>Copyright © 2018 </span>
 			<span>AFD基金会</span>
 			<span>版权所有</span>
-		</div>
-		
-		
+		</div>	
 	</div>
+
+</video>
+	<script src="lib/jquery-1.11.0.min.js"></script>
+	<script src="lib/xSlider.js"></script>
 	<script>
-		
+		$(function(){
+			$('.slider').xSlider()   
+		})
 	</script>
 </body>
 </html>
