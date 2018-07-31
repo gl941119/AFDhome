@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>AFD Chain(阿凡达链)</title>
 	<link href="ico.ico" rel="shortcut icon" />
-	
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/chinaIndex.css">
 	<style>
@@ -27,13 +26,15 @@
 					<a href='#callMy'>联系我们</a>
 			</div>
 		</div>
+		
 		<!-- banner -->
-		<div class="slider">
-		  <div class="slider-img">
-		    <ul class="slider-img-ul">
+		<div class="bannerWrap">
+			<div class="prev">&lt;</div>
+			<div class="next">&gt;</div>
+			<div class="samllDots"></div>
+		    <ul class="bannerUl">
 		      <li>
-		      	<video src="http://www.afdchain.org/static/afd-video-46.mp4"  controls autoplay width="1440px" height="500px" class="video"></video>
-		      	
+		      	<video src="http://imgs.afdchain.com/web-upload/video/afd-video-46.mp4"  controls autoplay  width="1440px" height="500px" class="video"></video>
 		      </li>
 		      <li>
 		      	<div class="banner">
@@ -50,9 +51,7 @@
 					</div>
 				</div>
 		      </li>
-		      
 		    </ul>
-		  </div>
 		</div>  
 		<!-- flow -->
 		<div class="flow">
@@ -271,7 +270,11 @@
 				</div>
 				<div>
 					<img src="img/call.png" alt="">
-					<p>官方客服微信号</p>
+					<p>商务合作</p>
+				</div>
+				<div>
+					<img src="img/kefu.jpg" alt="" style="width: 128px;height: 128px;">
+					<p>官方客服号</p>
 				</div>
 				<ul>
 					<li id="callMy">联系我们</li>
@@ -290,11 +293,6 @@
 
 </video>
 	<script src="lib/jquery-1.11.0.min.js"></script>
-	<script src="lib/xSlider.js"></script>
-	<script>
-		$(function(){
-			$('.slider').xSlider()   
-		})
-	</script>
+	<script src='js/index.js'></script>
 </body>
 </html>

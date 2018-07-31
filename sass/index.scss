@@ -18,7 +18,6 @@
     background: #efefef;
     margin: 0 auto;
     width: 1440px;
-
 }
 .header{
     height: 80px;
@@ -33,7 +32,6 @@
         }
     }
     .nav{
-
         margin-right: 100px;
         height: 80px;
         line-height: 80px;
@@ -50,10 +48,65 @@
         }
     }
 }
+.bannerWrap{
+    width: 1440px;
+    height: 500px; 
+    position: relative;
+    overflow: hidden;
+    .bannerUl{
+        width: 4000px;
+        height: 500px;
+        position: absolute;
+        left: 0;
+        li{
+            float: left;
+        }
+    }
+    .samllDots{
+        position: absolute;
+        left: 690px;
+        top: 450px;
+        z-index: 100;
+        display: none;
+        i{
+            float: left;
+            margin-right: 10px;
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 250px;
+            border: 1px solid white;
+            opacity: .5;
+        }
+        .current{
+            background: #888888;
+        }
+        
+    }
+    .prev, .next {
+        width: 45px;
+        height: 100px;
+        background: #000;
+        color: #fff;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        margin:auto;
+        text-align: center;
+        line-height: 100px;
+        font-size:40px;
+        cursor: pointer;
+        z-index: 100;
+        opacity: .5;
+    }
+    .next {
+        right: 0;
+    }
+}
 .banner{
     width:1440px;
     height:500px;
-    position: relative;
+
     box-sizing: border-box;
     padding-top: 163px;
     background: url(../img/banner.jpg) no-repeat;
@@ -698,7 +751,7 @@
   }
 .Wechatp{
   white-space: nowrap;
-  margin-left: -25px;
+  margin-left: -35px;
 }
 
 

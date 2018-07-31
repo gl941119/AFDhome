@@ -29,12 +29,13 @@
 			</div>
 		</div>
 		<!-- banner -->
-		<div class="slider">
-		  <div class="slider-img">
-		    <ul class="slider-img-ul">
+		<div class="bannerWrap">
+			<div class="prev">&lt;</div>
+			<div class="next">&gt;</div>
+			<div class="samllDots"></div>
+		    <ul class="bannerUl">
 		      <li>
-		      	<video src="http://www.afdchain.org/static/afd-video-46.mp4"  controls autoplay width="1440px" height="500px" class="video"></video>
-		      	
+		      	<video src="http://imgs.afdchain.com/web-upload/video/afd-video-46.mp4"  controls autoplay width="1440px" height="500px" class="video"></video>
 		      </li>
 		      <li>
 		      	<div class="banner">
@@ -50,15 +51,10 @@
 						</div>
 					</div>
 				</div>
-		      </li>
-		      
-		    </ul>
-		  </div>
+		      </li>   
+		    </ul>  
 		</div> 
 
-
-
-		
 		<!-- flow -->
 		<div class="flow">
 				<ul>
@@ -280,7 +276,11 @@
 				</div>
 				<div>
 					<img src="img/Wechat.png" alt="">
-					<p>Wechat</p>
+					<p style="width: 72px;">Cooperation</p>
+				</div>
+				<div>
+					<img src="img/kefu.jpg" alt="">
+					<p style="white-space: nowrap;margin-left: -10px;">Service wechat</p>
 				</div>
 				<ul>
 					<!-- <li id="callMy">联系我们</li> -->
@@ -307,17 +307,10 @@
 		
 	</div>
 	<script src="lib/jquery-1.11.0.min.js"></script>
-	<script src="lib/xSlider.js"></script>
+	<script src="js/index.js"></script>
 
 	<script>
-		// let btn = document.getElementById("btn")
-		// let v = document.getElementById("video")
-		// btn.onclick=function(){
-		// 	v.play()
-		// }
-		$(function(){
-			$('.slider').xSlider()   
-		})
+		
 	</script>
 </body>
 </html>
